@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Joe Keegan Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <script src="main.js"></script>
@@ -23,19 +23,17 @@
 
                 <!-- Section to be floated right with links to different pages-->
                 <div class="float-right">
-                    <a class="bordered" href="index.html">About</a>
-                    <a class="bordered" href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
+                    <a class="bordered" href="#about">About</a>
+                    <a class="bordered" href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
                 </div>
 
             </div>
 
         </header>
 
-        <br>
-
         <!-- Body for 'About Me' -->
-        <div class="main-content">
+        <div class="main-content" id="about">
 
             <h2>About Me</h2>
 
@@ -55,6 +53,65 @@
                 Additionally, I like to travel whenever possible, and I like to try out local breweries when I do.
             </p>
             
+        </div>
+
+        <!-- Body for 'Portfolio' -->
+        <div class="main-content" id="portfolio">
+
+            <h2>Portfolio</h2>
+
+            <hr>
+
+            <!-- Placeholder Images -->
+            <div class="images">
+                
+                <div class="container" id="hangman">
+                    <div class="text-overlay">Hangman</div>
+                </div>
+
+                <a href="https://jwkeegan.github.io/unit-4-game/" class="container" id="rpg-game">
+                    <div class="text-overlay">RPG Game</div>
+                </a>
+
+                <!-- <div class="container" id="rpg-game">
+                </div> -->
+
+                <a href="https://jwkeegan.github.io/TriviaGame/" class="container" id="trivia-game">
+                    <div class="text-overlay">Trivia Game</div>
+                </a>
+
+                <!-- <div class="container" id="trivia-game">
+                </div> -->
+
+                <a href="https://jwkeegan.github.io/GIPHY-API/" class="container" id="info-widget">
+                    <div class="text-overlay">GIPHY API</div>
+                </a>
+
+                <a href="https://jwkeegan.github.io/Train-Tracker/" class="container" id="train-tracker">
+                    <div class="text-overlay">Train-Tracker</div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Body for 'Contact' -->
+        <div class="main-content" id="contact">
+
+            <h2>Contact</h2>
+
+            <hr>
+
+            <form>
+                Name<br>
+                <input type="text" name="name" placeholder="Name"><br>
+                Email<br>
+                <input type="text" name="email" placeholder="example@gmail.com"><br>
+                Message<br>
+                <textarea rows="8" cols="50" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+
         </div>
 
     </div>

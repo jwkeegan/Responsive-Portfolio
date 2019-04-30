@@ -76,13 +76,17 @@ hr {
 
 .main-content {
     width: 918px;
-    margin: 0 auto;
+    margin: 25px auto;
 
     background-color: #ffffff;
     border: 1px solid;
     border-color: #dddddd;
     
-    padding: 0px 20px 56px;
+    padding: 0px 20px 25px;
+}
+
+#contact {
+    padding-bottom: 56px;
 }
 
 footer {
