@@ -158,6 +158,13 @@ textarea {
     clear: both;
 }
 
+#project-1 {
+    background-image: url(../images/Project1Resized.PNG);
+    height: 200px;
+    width: 564px;
+    object-fit: scale-down;
+}
+
 #hangman {
     background-image: url(../images/ball.jpg);
 }
@@ -191,6 +198,7 @@ textarea {
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
     text-align: center;
+    opacity: 0.9;
 }
 
 h1, h2 {
