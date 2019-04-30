@@ -152,6 +152,21 @@ textarea {
     padding: 0;
 }
 
+#flex-container {
+    position: relative;
+    height: 75px;
+    width: 20%;
+    
+    margin: 20px 2.5%;
+    text-align: center;
+}
+
+#split-text {
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 .images::after {
     content: " ";
     display: block;
@@ -183,6 +198,12 @@ textarea {
 
 #train-tracker {
     background-image: url(../images/run.jpg);
+}
+
+#thumbnail {
+    height: 50px;
+    width: 50px;
+    padding: 10px 0px;
 }
 
 .text-overlay {
@@ -305,6 +326,11 @@ p, form, a {
     .text-overlay {
         font-size: 40px;
         line-height: 104px;
+    }
+
+    #flex-container {
+        width: 40%;
+        margin: 20px 5%;
     }
 
 }
