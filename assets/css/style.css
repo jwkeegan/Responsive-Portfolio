@@ -59,6 +59,16 @@ a {
     padding: 0px 14px 0px 10px;
 }
 
+#github-link {
+    background-image: url(../images/github.png);
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+    padding: 0;
+    position: relative;
+    float: left;
+}
+
 .bordered {
     border-right: 2px solid;
     border-right-color: #cccccc;
@@ -162,9 +172,9 @@ textarea {
 }
 
 #split-text {
-    height: 30px;
+    height: 46%;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 4%;
 }
 
 .images::after {
@@ -331,6 +341,10 @@ p, form, a {
     #flex-container {
         width: 40%;
         margin: 20px 5%;
+    }
+
+    #github-link {
+        margin: 0 257px;
     }
 
 }
