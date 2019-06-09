@@ -222,6 +222,10 @@ textarea {
     background-image: url(../images/github-200.png);
 }
 
+#eat-da-burger {
+    background-image: url(../images/burger.png);
+}
+
 #thumbnail {
     height: 50px;
     width: 50px;
