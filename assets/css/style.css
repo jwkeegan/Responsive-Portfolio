@@ -156,7 +156,6 @@ textarea {
     height: 200px;
     width: 200px;
     position: relative;
-
     float: left;
     margin: 20px 20px;
     padding: 0;
@@ -185,6 +184,13 @@ textarea {
 
 #project-1 {
     background-image: url(../images/Project1Resized.PNG);
+    height: 200px;
+    width: 564px;
+    object-fit: scale-down;
+}
+
+#project-2 {
+    background-image: url(../images/Project2Resized.PNG);
     height: 200px;
     width: 564px;
     object-fit: scale-down;
