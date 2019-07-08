@@ -232,6 +232,10 @@ textarea {
     background-image: url(../images/burger.jpg);
 }
 
+#strib-scraper {
+    background-image: url(../images/strib.png);
+}
+
 #thumbnail {
     height: 50px;
     width: 50px;
